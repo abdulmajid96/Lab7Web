@@ -108,3 +108,25 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![6](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/6.PNG)
+
+## Kondisi Switch
+```PHP
+    <h2>Kondisi Switch</h2>
+    <?php
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+        case "Sunday":
+            echo "Minggu";
+            break;
+        case "Monday":
+            echo "Senin";
+            break;
+        case "Tuesday":
+            echo "Selasa";
+            break;
+        default:
+            echo "Sabtu";
+    }
+    ?>
+```
+![7](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/7.PNG)

@@ -7,16 +7,22 @@
     <title>PHP Dasar</title>
 </head>
 <body>
-    <h2>Kondisi IF</h2>
+    <h2>Kondisi Switch</h2>
     <?php
-        $nama_hari = date("l");
-        if ($nama_hari == "Sunday") {
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+        case "Sunday":
             echo "Minggu";
-        } elseif ($nama_hari == "Monday") {
+            break;
+        case "Monday":
             echo "Senin";
-        } else {
+            break;
+        case "Tuesday":
             echo "Selasa";
-        }
+            break;
+        default:
+            echo "Sabtu";
+    }
     ?>
 </body>
 </html>
