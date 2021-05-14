@@ -66,4 +66,16 @@ lalu mengakses filenya di browser, dan menambahkan nilai nama=Adul%Majid pada al
 http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
 ![3](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/3.PNG)
 
-
+## Form Input
+```PHP
+    <h2>Form Input</h2>
+    <form method="post">
+        <label>Nama: </label>
+        <input type="text" name="nama">
+        <input type="submit" value="Kirim">
+    </form>
+    <?php
+        echo 'Selamat Datang ' . $_POST['nama'];
+    ?>
+```
+![4](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/4.PNG)

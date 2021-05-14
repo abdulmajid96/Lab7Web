@@ -7,16 +7,14 @@
     <title>PHP Dasar</title>
 </head>
 <body>
-    <h1>Belajar PHP Dasar</h1>
+    <h2>Form Input</h2>
+    <form method="post">
+        <label>Nama: </label>
+        <input type="text" name="nama">
+        <input type="submit" value="Kirim">
+    </form>
     <?php
-        echo "Hello World";
-    ?>
-    <h2>Menggunakan Variable</h2>
-    <?php
-        $nim = "311810693";
-        $nama = 'Abdul Majid';
-        echo "NIM : " . $nim . "<br>";
-        echo "Nama : $nama";
+        echo 'Selamat Datang ' . $_POST['nama'];
     ?>
 </body>
 </html>
