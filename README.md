@@ -130,3 +130,19 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![7](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/7.PNG)
+
+## Perulangan for
+```PHP
+    <h2>Perulangan for</h2>
+    <?php
+        echo "Perulangan 1 sampai 10 <br />";
+        for ($i=1; $i<=10; $i++) {
+            echo "Perulangan ke: " . $i . '<br />';
+        }
+        echo "Perulangan Menurun dari 10 ke 1 <br />";
+        for ($i=10; $i>=1; $i--) {
+            echo "Perulangan ke: " . $i . '<br />';
+        }
+    ?>
+```
+![8](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/8.PNG)
