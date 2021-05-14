@@ -41,5 +41,29 @@ Menambahkan variable pada program.
     echo "Nama : $nama";    
 ?>
 ```
+![2](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/2.PNG)
+
+## Predefine Variable $_GET
+Membuat file latihan2.php, lalu menambahkan varibale $_GET.
+```PHP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Dasar</title>
+</head>
+<body>
+    <h1>Predefine Variable</h1>
+    <?php
+        echo 'Selamat Datang ' . $_GET['nama'];
+    ?>
+</body>
+</html>
+```
+lalu mengakses filenya di browser, dan menambahkan nilai nama=Adul%Majid pada alamatnya seperti berikut.
+http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
+![3](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/3.PNG)
 
 
