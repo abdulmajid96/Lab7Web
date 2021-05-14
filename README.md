@@ -160,3 +160,17 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![9](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/9.PNG)
+
+## Perulangan dowhile
+```PHP
+    <h2>Perulangan dowhile</h2>
+    <?php
+       echo "Perulangan 1 sampai 10 <br />";
+       $i=1;
+       do {
+       echo "Perulangan ke: " . $i . '<br />';
+       $i++;
+       } while ($i<=10);
+    ?>
+```
+![10](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/10.PNG)

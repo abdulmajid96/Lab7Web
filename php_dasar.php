@@ -7,14 +7,14 @@
     <title>PHP Dasar</title>
 </head>
 <body>
-    <h2>Perulangan while</h2>
+    <h2>Perulangan dowhile</h2>
     <?php
-        echo "Perulangan 1 sampai 10 <br />";
-        $i=1;
-        while ($i<=10) {
-        echo "Perulangan ke: " . $i . '<br />';
-        $i++;
-        }
+       echo "Perulangan 1 sampai 10 <br />";
+       $i=1;
+       do {
+       echo "Perulangan ke: " . $i . '<br />';
+       $i++;
+       } while ($i<=10);
     ?>
 </body>
 </html>
