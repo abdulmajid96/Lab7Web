@@ -29,5 +29,17 @@ kode seperti berikut.
 </body>
 </html>
 ```
-![2.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.1.PNG)
+![1](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/1.PNG)
+
+## Variable PHP
+Menambahkan variable pada program.
+```PHP
+<?php
+    $nim = "311810693";
+    $nama = 'Abdul Majid';
+    echo "NIM : " . $nim . "<br>";
+    echo "Nama : $nama";    
+?>
+```
+
 
