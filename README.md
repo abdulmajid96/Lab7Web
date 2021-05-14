@@ -92,3 +92,19 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![5](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/5.PNG)
+
+## Kondisi IF
+```PHP
+    <h2>Kondisi IF</h2>
+    <?php
+        $nama_hari = date("l");
+        if ($nama_hari == "Sunday") {
+            echo "Minggu";
+        } elseif ($nama_hari == "Monday") {
+            echo "Senin";
+        } else {
+            echo "Selasa";
+        }
+    ?>
+```
+![6](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/6.PNG)
