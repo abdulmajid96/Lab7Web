@@ -146,3 +146,17 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![8](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/8.PNG)
+
+## Perulangan while
+```PHP
+    <h2>Perulangan while</h2>
+    <?php
+        echo "Perulangan 1 sampai 10 <br />";
+        $i=1;
+        while ($i<=10) {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+        }
+    ?>
+```
+![9](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/9.PNG)
