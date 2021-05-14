@@ -79,3 +79,16 @@ http://localhost/lab7Web/latihan2.php?nama=Abdul%20Majid
     ?>
 ```
 ![4](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/4.PNG)
+
+## Operator
+```PHP
+    <h2>Operator</h2>
+    <?php
+        $gaji = 1000000;
+        $pajak = 0.1;
+        $thp = $gaji - ($gaji*$pajak);
+        echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        echo "Gaji yang dibawa pulang = Rp. $thp";
+    ?>
+```
+![5](https://github.com/abdulmajid96/Lab7Web/blob/main/SS/5.PNG)
